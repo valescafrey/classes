@@ -1,0 +1,167 @@
+/*colours logo
+
+#14335b navy
+#eb957b orange
+#84949e blueish
+#04040c black
+#72849c blueish
+*/
+
+h1 {
+    text-align:left;
+    
+    padding-right:5%;
+    font-size: xx-large;
+    color: #14335b
+    
+}
+h5 {
+    text-align: right;
+    padding-right:40%;
+    color: #14335b
+                }
+h2 {
+    color: beige;
+}
+
+body {
+    padding:0px;
+    margin:auto;
+    background-color: #eb957b;
+        font-family:"inherit";
+        height: 800px;
+}
+
+.quote {
+    display:flex;
+    align-items:flex-end;
+    padding-top:15%;
+}
+
+
+/*to use class="logo"*/
+.logo {
+    width: 180px;
+    height: 80px;
+    object-fit:cover;
+   }
+
+.image {
+    width: 300px;
+    height: 200px;
+    align-items:flex-end;
+    padding-top: 55%;
+    }
+
+.image2 {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items:start;
+        align-content: start;        
+        }
+
+.header-container{
+    background-color:   #14335b;
+    text-decoration-color: beige;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+ }
+
+.nav-container{
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: beige;
+    gap: 15px;
+}
+.nav-container a {
+    color: beige;
+    gap: 5px;
+}
+
+.main-container{
+    display: flex;
+    height: 750px;
+   }
+
+.main-container-left{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    }
+
+.main-container-middle{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 150px;
+}
+
+.main-container-right{
+    width: 20%;
+    display: flex;
+    justify-content: auto;
+    padding: 10%;
+   }
+
+
+
+.footer-container{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border:1px  solid #14335b;
+}
+
+form{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form label span{
+    display: block;
+    width: 150px;
+    float: left; 
+}
+form button{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+input#name:hover{
+    border: 2px solid black;
+}
+input#phone:hover{
+    border: 2px solid black;
+}
+input#email:hover{
+    border: 2px solid black;
+}
+input#company:hover{
+    border: 2px solid black;
+}
+input#country:hover{
+    border: 2px solid black;
+}
+input#description:hover{
+    border: 2px solid black;
+}
+button[type="submit"]:hover{
+    background-color: pink;
+    
+}

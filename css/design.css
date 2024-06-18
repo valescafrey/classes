@@ -1,0 +1,92 @@
+body {
+    padding:0px;
+    margin:auto;
+    background-color: rgb(184, 132, 233);
+    font-family:"inherit";
+}
+
+/*to use class="logo"*/
+.logo {
+    border-radius:20;
+    width: 180px;
+    height: 80px;
+    object-fit:cover;
+    border: 3px solid black;
+    padding: 5px;
+}
+.flex-container {
+        display: flex;
+        justify-content: center; /* Center horizontaly */
+        align-items: center;    /* Center vertically */
+}
+
+.imagem {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 900px;
+    height: 500px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right ;
+    align-items: center;
+    height: 100vh; /*this 100 said its going to follow window size*/
+    gap: 10px; /*gap between elements*/
+
+}
+
+.item{
+    background-color: pink
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+}
+.header-container div {
+    border: 1px solid red
+}
+
+.nav-container{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    margin: 5px;
+    display: flex;
+    height: 600px;
+    justify-content: flex-start;
+}
+
+.main-container-right{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.main-container-left{
+    width: 20%;
+    border: 1px solid red;
+}
+
+.footer-container{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: last;
+}
+
+.image {
+    background-image: url(./images/einstein.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left;
+    width: 400px;
+    height: 200px;
+    align-items:flex-end;
+    padding-top: 5%;
+    }
