@@ -19,7 +19,7 @@ function loadContent(page) {       //find the file
         }
 
     };
-    ajax.onerror = function () {
+    ajax.onerror = function () { // return error
         console.log("Error: " + ajax.statusText);
     };
 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            border-radius: 10px;
+            font-size: 25px;
+            padding-top: 10%;
+            padding-left: 30%;
+        }
+        .title {
+            padding-left: 10%;
+        }
+
+        #display {
+            background-color: grey;
+            border-radius: 5px;
+            width: 435px;
+            height: 40px;
+            margin: 3px;
+            text-align:right;
+            font-size: 25px;
+            align-content: center;
+        }
+
+        .button1{
+            background-color: grey;
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 3px;
+            font-size: 20px;
+
+        } 
+        #calculator {
+            background-color: white;
+            border: solid 10px grey; 
+            border-radius: 10px;
+            width: 450px;
+            padding: 5px;
+            font-size: 20px;
+            align-items: center;
+        }
+
+    </style>
+
+
+</head>
+<p class="title"><b> CALCULATOR </b></p>
+<body>
+    <div id="calculator">
+        <table>
+            <tr>
+                <td>
+                    <p id="display"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button1" onclick="insert('1')">1</button>
+                    <button class="button1" onclick="insert('2')">2</button>
+                    <button class="button1" onclick="insert('3')">3</button>
+                    <button class="button1" onclick="insert('+')" style="background-color: yellow;">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button1" onclick="insert('4')">4</button>
+                    <button class="button1" onclick="insert('5')">5</button>
+                    <button class="button1" onclick="insert('6')">6</button>
+                    <button class="button1" onclick="insert('-')" style="background-color: yellow;">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button1" onclick="insert('7')">7</button>
+                    <button class="button1" onclick="insert('8')">8</button>
+                    <button class="button1" onclick="insert('9')">9</button>
+                    <button class="button1" onclick="insert('*')" style="background-color: yellow;">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button1" onclick="insert('0')">0</button>
+                    <button class="button1" onclick="clean()" style="background-color:red">C</button>
+                    <button class="button1" onclick="calculate('=')" style="background-color: green">=</button>
+                    <button class="button1" onclick="insert('/')" style="background-color: yellow;">/</button>
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+
+</body>
+<script src="js/calculator.js"></script>
+</html>

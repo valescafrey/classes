@@ -1,5 +1,8 @@
 
 
+
+
+
 function loadContent(page) {
     if (page == "about") {
         document.getElementById("main-content").innerHTML = 
